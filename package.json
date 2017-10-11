@@ -1,0 +1,21 @@
+{
+  "name": "recipe-wand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Cueni",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel-node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^0.12.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
