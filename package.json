@@ -5,7 +5,8 @@
   "author": "Christian Cueni",
   "license": "MIT",
   "scripts": {
-    "dev": "babel-node index.js"
+    "dev": "babel-node --inspect index.js",
+    "dev-live": "nodemon index.js --exec babel-node --presets es2015,stage-2 --inspect"
   },
   "dependencies": {
     "@google-cloud/vision": "^0.12.0",
